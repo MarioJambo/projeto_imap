@@ -1,0 +1,83 @@
+body {
+
+    padding: 0;
+
+    margin: 0;
+    background-color:   #313131;;
+
+}
+
+nav {
+
+    width: 100%;
+
+    display: flex;
+
+    position: fixed;
+
+    background-color: rosybrown;
+
+    z-index: 99;
+
+}
+
+nav a {
+
+    color: dodgerblue;
+
+    margin: auto 20px auto 40px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+nav li {
+
+    float: left;
+
+    list-style: none;
+
+    margin-left: 20px;
+
+}
+
+
+slider{
+    width: 800px;
+    height: 400px;
+    background: url(img/slideindex/bk1.jpeg);
+    margin: 100px auto;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide{
+    25%{
+        background: url(img/slideindex/bk1.jpeg);
+    }
+    50%{
+        background: url(img/galeria/1.jpg);
+    }
+    75%{
+        background: url(img/galeria/2.jpg);
+    }
+    100%{
+        background: url(img/galeria/3.jpg);
+    }
+    125%{
+        background: url(img/galeria/4.jpg);
+    }
+    150%{
+        background: url(img/galeria/5.jpg);
+    }
+    175%{
+        background: url(img/galeria/6.jpg);
+    }
+    200%{
+        background: url(img/galeria/7.jpg);;
+    }
+    225%{
+        background: url(img/galeria/8.jpg);
+    }
+}
